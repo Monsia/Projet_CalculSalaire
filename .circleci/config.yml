@@ -17,5 +17,8 @@ jobs:
 
     steps:
       - checkout
-      - run: test.py
+      - run: 
+          name : run tests
+          command: 
+            python test.py test
       
